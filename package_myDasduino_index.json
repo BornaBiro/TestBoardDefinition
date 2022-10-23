@@ -1,206 +1,206 @@
 {
-  "packages": [
-    {
-      "name": "Dasduino Connect plus Test",
-      "maintainer": "jaaaaa",
-      "websiteURL": "https://e-radionica.com",
-      "help": {
-        "online": "https://e-radionica.com"
-      },
-      "platforms": [
-        {
-          "name": "Dasduino Connect plus Test",
-          "architecture": "esp32",
-          "version": "2.0.5",
-          "category": "Dasduino",
-          "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp32-2.0.5.zip",
-          "archiveFileName": "esp32-2.0.5.zip",
-          "checksum": "SHA-256:c7a1040c5f007a799ef9eb249508e3544c3cf5246f67cdfdc1e80f7d0ca7b41d",
-          "size": "260916106",
-          "help": {
-            "online": ""
-          },
-          "boards": [
+   "packages":[
+      {
+         "name":"Dasduino Connect plus Test",
+         "maintainer":"jaaaaa",
+         "websiteURL":"https://e-radionica.com",
+         "help":{
+            "online":"https://e-radionica.com"
+         },
+         "platforms":[
             {
-              "name": "Dasduino ConnectPlus"
+               "name":"Dasduino Connect plus Test",
+               "architecture":"esp32",
+               "version":"2.0.5",
+               "category":"Dasduino",
+               "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp32-2.0.5.zip",
+               "archiveFileName":"esp32-2.0.5.zip",
+               "checksum":"SHA-256:c7a1040c5f007a799ef9eb249508e3544c3cf5246f67cdfdc1e80f7d0ca7b41d",
+               "size":"260916106",
+               "help":{
+                  "online":""
+               },
+               "boards":[
+                  {
+                     "name":"Dasduino ConnectPlus"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"esp32",
+                     "name":"riscv32-esp-elf-gcc",
+                     "version":"gcc8_4_0-esp-2021r2-patch3"
+                  },
+                  {
+                     "packager":"esp32",
+                     "name":"xtensa-esp32-elf-gcc",
+                     "version":"gcc8_4_0-esp-2021r2-patch3"
+                  },
+                  {
+                     "packager":"esp32",
+                     "name":"xtensa-esp32s2-elf-gcc",
+                     "version":"gcc8_4_0-esp-2021r2-patch3"
+                  },
+                  {
+                     "packager":"esp32",
+                     "name":"xtensa-esp32s3-elf-gcc",
+                     "version":"gcc8_4_0-esp-2021r2-patch3"
+                  },
+                  {
+                     "packager":"esp32",
+                     "name":"esptool_py",
+                     "version":"4.2.1"
+                  },
+                  {
+                     "packager":"esp32",
+                     "name":"mkspiffs",
+                     "version":"0.2.3"
+                  },
+                  {
+                     "packager":"esp32",
+                     "name":"mklittlefs",
+                     "version":"3.0.0-gnu12-dc7f933"
+                  }
+               ]
             }
-          ],
-          "toolsDependencies": [
+         ],
+         "tools":[
             {
-              "packager": "esp32",
-              "name": "riscv32-esp-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch3"
+               "name":"riscv32-esp-elf-gcc",
+               "version":"gcc8_4_0-esp-2021r2-patch3",
+               "systems":[
+                  {
+                     "host":"x86_64-apple-darwin",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+                     "archiveFileName":"riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+                     "checksum":"SHA-256:4aacc1742a76349d790b1ac8e9e9d963daefda5346dbd6741cfe8e7a35a44e4e",
+                     "size":"113703959"
+                  },
+                  {
+                     "host":"i686-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+                     "archiveFileName":"riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+                     "checksum":"SHA-256:eb2a442d7f551ebeb842995ec372ec4b364314ca2d7aae779399a74972f7d6bc",
+                     "size":"144711970"
+                  },
+                  {
+                     "host":"x86_64-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+                     "archiveFileName":"riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+                     "checksum":"SHA-256:f5607e5187317d521f0474cade83f8eb590f2d165d95c3779b6ce11fbac21d1f",
+                     "size":"146606480"
+                  }
+               ]
             },
             {
-              "packager": "esp32",
-              "name": "xtensa-esp32-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch3"
+               "name":"xtensa-esp32-elf-gcc",
+               "version":"gcc8_4_0-esp-2021r2-patch3",
+               "systems":[
+                  {
+                     "host":"x86_64-apple-darwin",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+                     "archiveFileName":"xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+                     "checksum":"SHA-256:dda3d7a43efd995d9a51d5a5741626dbf915df46078aef0b5aea7163ac82398b",
+                     "size":"97807647"
+                  },
+                  {
+                     "host":"i686-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+                     "archiveFileName":"xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+                     "checksum":"SHA-256:fd147592928ef2d7092ba34b01ecd776fe26ba3d7e3f9b6b215a3b46e981ee2c",
+                     "size":"116464819"
+                  },
+                  {
+                     "host":"x86_64-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+                     "archiveFileName":"xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+                     "checksum":"SHA-256:9395315c07de0b9f05c9a6616ba1f05e76ab651053f2f40479163a8e03cfa830",
+                     "size":"119511910"
+                  }
+               ]
             },
             {
-              "packager": "esp32",
-              "name": "xtensa-esp32s2-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch3"
+               "name":"esptool_py",
+               "version":"4.2.1",
+               "systems":[
+                  {
+                     "host":"i686-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esptool-4.2.1-windows.zip",
+                     "archiveFileName":"esptool-4.2.1-windows.zip",
+                     "checksum":"SHA-256:582560067bfbd9895f4862eb5fdf87558ddee5d4d30e7575c9b8bcb0dd60fd94",
+                     "size":"6368279"
+                  },
+                  {
+                     "host":"x86_64-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esptool-4.2.1-windows.zip",
+                     "archiveFileName":"esptool-4.2.1-windows.zip",
+                     "checksum":"SHA-256:582560067bfbd9895f4862eb5fdf87558ddee5d4d30e7575c9b8bcb0dd60fd94",
+                     "size":"6368279"
+                  },
+                  {
+                     "host":"x86_64-apple-darwin",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/esptool-4.2.1-macos.tar.gz",
+                     "archiveFileName":"esptool-4.2.1-macos.tar.gz",
+                     "checksum":"SHA-256:a984f7ad8bdb40c42d0d368bf4bb21b69a9587aed46b7b6d7de23ca58a3f150d",
+                     "size":"5816598"
+                  }
+               ]
             },
             {
-              "packager": "esp32",
-              "name": "xtensa-esp32s3-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch3"
+               "version":"3.0.0-gnu12-dc7f933",
+               "name":"mklittlefs",
+               "systems":[
+                  {
+                     "host":"i686-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                     "archiveFileName":"i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                     "checksum":"SHA-256:43740db30ce451454f2337331f10ab4ed41bd83dbf0fa0cb4387107388b59f42",
+                     "size":"332655"
+                  },
+                  {
+                     "host":"x86_64-apple-darwin",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+                     "archiveFileName":"x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+                     "checksum":"SHA-256:e3edd5e05b70db3c7df6b9d626558348ad04804022fe955c799aeb51808c7dc3",
+                     "size":"362608"
+                  },
+                  {
+                     "host":"x86_64-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                     "archiveFileName":"x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                     "checksum":"SHA-256:2e319077491f8e832e96eb4f2f7a70dd919333cee4b388c394e0e848d031d542",
+                     "size":"345132"
+                  }
+               ]
             },
             {
-              "packager": "esp32",
-              "name": "esptool_py",
-              "version": "4.2.1"
-            },
-            {
-              "packager": "esp32",
-              "name": "mkspiffs",
-              "version": "0.2.3"
-            },
-            {
-              "packager": "esp32",
-              "name": "mklittlefs",
-              "version": "3.0.0-gnu12-dc7f933"
+               "name":"mkspiffs",
+               "version":"0.2.3",
+               "systems":[
+                  {
+                     "host":"i686-mingw32",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/mkspiffs-0.2.3-arduino-esp32-win32.zip",
+                     "archiveFileName":"mkspiffs-0.2.3-arduino-esp32-win32.zip",
+                     "checksum":"SHA-256:b647f2c2efe6949819c85ea9404271b55c7c9c25bcb98d3b98a1d0ba771adf56",
+                     "size":"249809"
+                  },
+                  {
+                     "host":"x86_64-apple-darwin",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                     "archiveFileName":"mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                     "checksum":"SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+                     "size":"130270"
+                  },
+                  {
+                     "host":"i386-apple-darwin",
+                     "url":"https://github.com/BornaBiro/TestBoardDefinition/blob/main/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                     "archiveFileName":"mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                     "checksum":"SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+                     "size":"130270"
+                  }
+               ]
             }
-          ]
-        },
-      ],
-      "tools": [
-        {
-          "name": "riscv32-esp-elf-gcc",
-          "version": "gcc8_4_0-esp-2021r2-patch3",
-          "systems": [
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
-              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
-              "checksum": "SHA-256:4aacc1742a76349d790b1ac8e9e9d963daefda5346dbd6741cfe8e7a35a44e4e",
-              "size": "113703959"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
-              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
-              "checksum": "SHA-256:eb2a442d7f551ebeb842995ec372ec4b364314ca2d7aae779399a74972f7d6bc",
-              "size": "144711970"
-            },
-            {
-              "host": "x86_64-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
-              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
-              "checksum": "SHA-256:f5607e5187317d521f0474cade83f8eb590f2d165d95c3779b6ce11fbac21d1f",
-              "size": "146606480"
-            }
-          ]
-        },
-        {
-          "name": "xtensa-esp32-elf-gcc",
-          "version": "gcc8_4_0-esp-2021r2-patch3",
-          "systems": [
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
-              "checksum": "SHA-256:dda3d7a43efd995d9a51d5a5741626dbf915df46078aef0b5aea7163ac82398b",
-              "size": "97807647"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
-              "checksum": "SHA-256:fd147592928ef2d7092ba34b01ecd776fe26ba3d7e3f9b6b215a3b46e981ee2c",
-              "size": "116464819"
-            },
-            {
-              "host": "x86_64-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esp-2021r2-patch3/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
-              "checksum": "SHA-256:9395315c07de0b9f05c9a6616ba1f05e76ab651053f2f40479163a8e03cfa830",
-              "size": "119511910"
-            }
-          ]
-        },
-        {
-          "name": "esptool_py",
-          "version": "4.2.1",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esptool-4.2.1-windows.zip",
-              "archiveFileName": "esptool-4.2.1-windows.zip",
-              "checksum": "SHA-256:582560067bfbd9895f4862eb5fdf87558ddee5d4d30e7575c9b8bcb0dd60fd94",
-              "size": "6368279"
-            },
-            {
-              "host": "x86_64-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esptool-4.2.1-windows.zip",
-              "archiveFileName": "esptool-4.2.1-windows.zip",
-              "checksum": "SHA-256:582560067bfbd9895f4862eb5fdf87558ddee5d4d30e7575c9b8bcb0dd60fd94",
-              "size": "6368279"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/esptool-4.2.1-macos.tar.gz",
-              "archiveFileName": "esptool-4.2.1-macos.tar.gz",
-              "checksum": "SHA-256:a984f7ad8bdb40c42d0d368bf4bb21b69a9587aed46b7b6d7de23ca58a3f150d",
-              "size": "5816598"
-            },
-          ]
-        },
-        {
-          "version": "3.0.0-gnu12-dc7f933",
-          "name": "mklittlefs",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
-              "archiveFileName": "i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
-              "checksum": "SHA-256:43740db30ce451454f2337331f10ab4ed41bd83dbf0fa0cb4387107388b59f42",
-              "size": "332655"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
-              "archiveFileName": "x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
-              "checksum": "SHA-256:e3edd5e05b70db3c7df6b9d626558348ad04804022fe955c799aeb51808c7dc3",
-              "size": "362608"
-            },
-            {
-              "host": "x86_64-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
-              "archiveFileName": "x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
-              "checksum": "SHA-256:2e319077491f8e832e96eb4f2f7a70dd919333cee4b388c394e0e848d031d542",
-              "size": "345132"
-            }
-          ]
-        },
-        {
-          "name": "mkspiffs",
-          "version": "0.2.3",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/mkspiffs-0.2.3-arduino-esp32-win32.zip",
-              "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-win32.zip",
-              "checksum": "SHA-256:b647f2c2efe6949819c85ea9404271b55c7c9c25bcb98d3b98a1d0ba771adf56",
-              "size": "249809"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
-              "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
-              "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
-              "size": "130270"
-            },
-            {
-              "host": "i386-apple-darwin",
-              "url": "https://github.com/BornaBiro/TestBoardDefinition/blob/main/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
-              "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
-              "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
-              "size": "130270"
-            },
-          ]
-        },
-      ]
-    }
-  ]
+         ]
+      }
+   ]
 }
