@@ -4,6 +4,7 @@
          "name":"Dasduino Connect plus Test",
          "maintainer":"jaaaaa",
          "websiteURL":"https://e-radionica.com",
+		 "email": "borna@e-radionica.com",
          "help":{
             "online":"https://e-radionica.com"
          },
