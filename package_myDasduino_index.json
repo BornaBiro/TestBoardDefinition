@@ -1,7 +1,7 @@
 {
    "packages":[
       {
-         "name":"Dasduino Connect plus Test",
+         "name":"bornaDasduino",
          "maintainer":"jaaaaa",
          "websiteURL":"https://e-radionica.com",
 		 "email": "borna@e-radionica.com",
@@ -10,7 +10,7 @@
          },
          "platforms":[
             {
-               "name":"Dasduino Connect plus Test",
+               "name":"bornaDasduino",
                "architecture":"esp32",
                "version":"2.0.5",
                "category":"Dasduino",
@@ -21,44 +21,59 @@
                "help":{
                   "online":""
                },
-               "boards":[
-                  {
-                     "name":"Dasduino ConnectPlus"
-                  }
+				"boards": [
+					{
+						"name": "Inkplate 2 (ESP32)"
+					},
+					{
+						"name": "Inkplate 6 (ESP32)"
+					},
+					{
+						"name": "Inkplate 10 (ESP32)"
+					},
+					{
+						"name": "Inkplate 5 (ESP32)"
+					},
+					{
+						"name": "Inkplate 6PLUS (ESP32)"
+					},
+					{
+						"name": "Inkplate 6COLOR (ESP32)"
+					}
                ],
                "toolsDependencies":[
                   {
-                     "packager":"esp32",
+                     "packager":"bornaDasduino",
                      "name":"riscv32-esp-elf-gcc",
                      "version":"gcc8_4_0-esp-2021r2-patch3"
                   },
                   {
-                     "packager":"esp32",
+                     "packager":"bornaDasduino",
                      "name":"xtensa-esp32-elf-gcc",
                      "version":"gcc8_4_0-esp-2021r2-patch3"
                   },
                   {
-                     "packager":"esp32",
+                     "packager":"bornaDasduino",
                      "name":"xtensa-esp32s2-elf-gcc",
                      "version":"gcc8_4_0-esp-2021r2-patch3"
                   },
                   {
-                     "packager":"esp32",
+                     "packager":"bornaDasduino",
                      "name":"xtensa-esp32s3-elf-gcc",
                      "version":"gcc8_4_0-esp-2021r2-patch3"
                   },
                   {
-                     "packager":"esp32",
+                     "packager":"bornaDasduino",
                      "name":"esptool_py",
                      "version":"4.2.1"
                   },
                   {
-                     "packager":"esp32",
+                     "packager":"bornaDasduino",
                      "name":"mkspiffs",
                      "version":"0.2.3"
                   },
                   {
-                     "packager":"esp32",
+                     "packager":"bornaDasduino",
                      "name":"mklittlefs",
                      "version":"3.0.0-gnu12-dc7f933"
                   }
