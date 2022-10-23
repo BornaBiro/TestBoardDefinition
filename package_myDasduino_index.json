@@ -4,7 +4,7 @@
          "name":"bornaDasduino",
          "maintainer":"jaaaaa",
          "websiteURL":"https://e-radionica.com",
-		 "email": "borna@e-radionica.com",
+         "email":"borna@e-radionica.com",
          "help":{
             "online":"https://e-radionica.com"
          },
@@ -21,25 +21,25 @@
                "help":{
                   "online":""
                },
-				"boards": [
-					{
-						"name": "Inkplate 2 (ESP32)"
-					},
-					{
-						"name": "Inkplate 6 (ESP32)"
-					},
-					{
-						"name": "Inkplate 10 (ESP32)"
-					},
-					{
-						"name": "Inkplate 5 (ESP32)"
-					},
-					{
-						"name": "Inkplate 6PLUS (ESP32)"
-					},
-					{
-						"name": "Inkplate 6COLOR (ESP32)"
-					}
+               "boards":[
+                  {
+                     "name":"Inkplate 2 (ESP32)"
+                  },
+                  {
+                     "name":"Inkplate 6 (ESP32)"
+                  },
+                  {
+                     "name":"Inkplate 10 (ESP32)"
+                  },
+                  {
+                     "name":"Inkplate 5 (ESP32)"
+                  },
+                  {
+                     "name":"Inkplate 6PLUS (ESP32)"
+                  },
+                  {
+                     "name":"Inkplate 6COLOR (ESP32)"
+                  }
                ],
                "toolsDependencies":[
                   {
