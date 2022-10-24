@@ -14,10 +14,10 @@
                "architecture":"esp32",
                "version":"2.0.5",
                "category":"Dasduino",
-               "url":"https://github.com/BornaBiro/TestBoardDefinition/raw/main/esp32-2.0.5.zip",
-               "archiveFileName":"esp32-2.0.5.zip",
-               "checksum":"SHA-256:4b17aacddd72dbe80f8b6c3c48fdc41270c21580df3c3e4d362c3cb9d2e1bf73",
-               "size":"77067069",
+               "url":"https://github.com/BornaBiro/TestBoardDefinition/raw/main/bornaDasduino-core-2.0.5.zip",
+               "archiveFileName":"bornaDasduino-core-2.0.5.zip",
+               "checksum":"SHA-256:1d79c4251a6bff522238f4a9f91aa17af99e29a0981fcac861aee488d44e3379",
+               "size":"77167559",
                "help":{
                   "online":""
                },
