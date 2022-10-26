@@ -29,7 +29,13 @@
                      "name":"Inkplate 6 (ESP32)"
                   },
                   {
+                     "name":"Inkplate 6V2 (ESP32)"
+                  },
+                  {
                      "name":"Inkplate 10 (ESP32)"
+                  },
+                  {
+                     "name":"Inkplate 10V2 (ESP32)"
                   },
                   {
                      "name":"Inkplate 5 (ESP32)"
@@ -38,7 +44,10 @@
                      "name":"Inkplate 6PLUS (ESP32)"
                   },
                   {
-                     "name":"Inkplate 6COLOR (ESP32)"
+                     "name":"Inkplate 6PLUSV2 (ESP32)"
+                  },
+                  {
+                     "name":"Inkplate COOL (ESP32)"
                   }
                ],
                "toolsDependencies":[
