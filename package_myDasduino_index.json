@@ -16,7 +16,7 @@
                "category":"Dasduino",
                "url":"https://github.com/BornaBiro/TestBoardDefinition/raw/main/bornaDasduino-core-2.0.5.zip",
                "archiveFileName":"bornaDasduino-core-2.0.5.zip",
-               "checksum":"64451673e6886570c9c105c2aaf25b6722bac5e00d6fdd5655c65b726fc6edda",
+               "checksum":"SHA-256:64451673e6886570c9c105c2aaf25b6722bac5e00d6fdd5655c65b726fc6edda",
                "size":"77167543",
                "help":{
                   "online":""
