@@ -12,11 +12,11 @@
             {
                "name":"bornaDasduino",
                "architecture":"esp32",
-               "version":"2.0.5",
+               "version":"3.0.0",
                "category":"Dasduino",
-               "url":"https://github.com/BornaBiro/TestBoardDefinition/raw/main/bornaDasduino-core-2.0.5.zip",
-               "archiveFileName":"bornaDasduino-core-2.0.5.zip",
-               "checksum":"SHA-256:64451673e6886570c9c105c2aaf25b6722bac5e00d6fdd5655c65b726fc6edda",
+               "url":"https://github.com/BornaBiro/TestBoardDefinition/raw/main/bornaDasduino-core-3.0.0.zip",
+               "archiveFileName":"bornaDasduino-core-3.0.0.zip",
+               "checksum":"SHA-256:f6cb0f97daaf37073227a49dff7c12ae06cba237106f116ed0797eec5fd7c9ba",
                "size":"77167543",
                "help":{
                   "online":""
